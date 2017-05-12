@@ -11,6 +11,9 @@
 		3FAE17B41EC59A420028D587 /* RestRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAE17B31EC59A420028D587 /* RestRequest.m */; };
 		3FAE17B71EC5A0F00028D587 /* RestResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAE17B61EC5A0F00028D587 /* RestResponse.m */; };
 		3FAE17BC1EC5A8700028D587 /* RestRequestTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAE17BB1EC5A8700028D587 /* RestRequestTest.m */; };
+		3FAE17BE1EC5AE250028D587 /* MaskView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FAE17BD1EC5AE250028D587 /* MaskView.xib */; };
+		3FAE17C21EC5B02B0028D587 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAE17C01EC5B02B0028D587 /* LoginViewController.m */; };
+		3FAE17C31EC5B02B0028D587 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FAE17C11EC5B02B0028D587 /* LoginView.xib */; };
 		3FFD202A1EBC634A0002436D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD20291EBC634A0002436D /* main.m */; };
 		3FFD202D1EBC634A0002436D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD202C1EBC634A0002436D /* AppDelegate.m */; };
 		3FFD20301EBC634A0002436D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD202F1EBC634A0002436D /* ViewController.m */; };
@@ -43,6 +46,10 @@
 		3FAE17B51EC5A0F00028D587 /* RestResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestResponse.h; path = PhotoWall/RestClient/RestResponse.h; sourceTree = "<group>"; };
 		3FAE17B61EC5A0F00028D587 /* RestResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestResponse.m; path = PhotoWall/RestClient/RestResponse.m; sourceTree = "<group>"; };
 		3FAE17BB1EC5A8700028D587 /* RestRequestTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestRequestTest.m; path = RestClient/RestRequestTest.m; sourceTree = "<group>"; };
+		3FAE17BD1EC5AE250028D587 /* MaskView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MaskView.xib; path = PhotoWall/View/MaskView.xib; sourceTree = "<group>"; };
+		3FAE17BF1EC5B02B0028D587 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = PhotoWall/View/LoginViewController.h; sourceTree = "<group>"; };
+		3FAE17C01EC5B02B0028D587 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = PhotoWall/View/LoginViewController.m; sourceTree = "<group>"; };
+		3FAE17C11EC5B02B0028D587 /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginView.xib; path = PhotoWall/View/LoginView.xib; sourceTree = "<group>"; };
 		3FFD20251EBC634A0002436D /* PhotoWall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoWall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFD20291EBC634A0002436D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3FFD202B1EBC634A0002436D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,6 +110,10 @@
 		3FAE17AD1EC5988C0028D587 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3FAE17BD1EC5AE250028D587 /* MaskView.xib */,
+				3FAE17BF1EC5B02B0028D587 /* LoginViewController.h */,
+				3FAE17C01EC5B02B0028D587 /* LoginViewController.m */,
+				3FAE17C11EC5B02B0028D587 /* LoginView.xib */,
 			);
 			name = View;
 			path = ..;
@@ -295,6 +306,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FAE17C31EC5B02B0028D587 /* LoginView.xib in Resources */,
+				3FAE17BE1EC5AE250028D587 /* MaskView.xib in Resources */,
 				3FFD203B1EBC634A0002436D /* LaunchScreen.storyboard in Resources */,
 				3FFD20381EBC634A0002436D /* Assets.xcassets in Resources */,
 				3FFD20331EBC634A0002436D /* Main.storyboard in Resources */,
@@ -408,6 +421,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FAE17C21EC5B02B0028D587 /* LoginViewController.m in Sources */,
 				3FFD20361EBC634A0002436D /* PhotoWall.xcdatamodeld in Sources */,
 				3FAE17B41EC59A420028D587 /* RestRequest.m in Sources */,
 				3FAE17B71EC5A0F00028D587 /* RestResponse.m in Sources */,
