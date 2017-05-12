@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FAE17B11EC599560028D587 /* RestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAE17B01EC599560028D587 /* RestClient.m */; };
+		3FAE17B41EC59A420028D587 /* RestRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAE17B31EC59A420028D587 /* RestRequest.m */; };
+		3FAE17B71EC5A0F00028D587 /* RestResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAE17B61EC5A0F00028D587 /* RestResponse.m */; };
+		3FAE17BC1EC5A8700028D587 /* RestRequestTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAE17BB1EC5A8700028D587 /* RestRequestTest.m */; };
 		3FFD202A1EBC634A0002436D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD20291EBC634A0002436D /* main.m */; };
 		3FFD202D1EBC634A0002436D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD202C1EBC634A0002436D /* AppDelegate.m */; };
 		3FFD20301EBC634A0002436D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD202F1EBC634A0002436D /* ViewController.m */; };
@@ -32,6 +36,13 @@
 /* Begin PBXFileReference section */
 		2A5E94DB99D4B10180B73FA5 /* Pods-PhotoWall-PhotoWallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoWall-PhotoWallTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoWall-PhotoWallTests/Pods-PhotoWall-PhotoWallTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2B1FD232209FB1CDB64B9A39 /* Pods-PhotoWall-PhotoWallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoWall-PhotoWallTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoWall-PhotoWallTests/Pods-PhotoWall-PhotoWallTests.release.xcconfig"; sourceTree = "<group>"; };
+		3FAE17AF1EC599560028D587 /* RestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestClient.h; path = PhotoWall/RestClient/RestClient.h; sourceTree = "<group>"; };
+		3FAE17B01EC599560028D587 /* RestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestClient.m; path = PhotoWall/RestClient/RestClient.m; sourceTree = "<group>"; };
+		3FAE17B21EC59A420028D587 /* RestRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestRequest.h; path = PhotoWall/RestClient/RestRequest.h; sourceTree = "<group>"; };
+		3FAE17B31EC59A420028D587 /* RestRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestRequest.m; path = PhotoWall/RestClient/RestRequest.m; sourceTree = "<group>"; };
+		3FAE17B51EC5A0F00028D587 /* RestResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestResponse.h; path = PhotoWall/RestClient/RestResponse.h; sourceTree = "<group>"; };
+		3FAE17B61EC5A0F00028D587 /* RestResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestResponse.m; path = PhotoWall/RestClient/RestResponse.m; sourceTree = "<group>"; };
+		3FAE17BB1EC5A8700028D587 /* RestRequestTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestRequestTest.m; path = RestClient/RestRequestTest.m; sourceTree = "<group>"; };
 		3FFD20251EBC634A0002436D /* PhotoWall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoWall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFD20291EBC634A0002436D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3FFD202B1EBC634A0002436D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +92,51 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3FAE17AC1EC598820028D587 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3FAE17AD1EC5988C0028D587 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3FAE17AE1EC598A00028D587 /* RestClient */ = {
+			isa = PBXGroup;
+			children = (
+				3FAE17AF1EC599560028D587 /* RestClient.h */,
+				3FAE17B01EC599560028D587 /* RestClient.m */,
+				3FAE17B21EC59A420028D587 /* RestRequest.h */,
+				3FAE17B31EC59A420028D587 /* RestRequest.m */,
+				3FAE17B51EC5A0F00028D587 /* RestResponse.h */,
+				3FAE17B61EC5A0F00028D587 /* RestResponse.m */,
+			);
+			name = RestClient;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3FAE17B81EC5A7C60028D587 /* RestClient */ = {
+			isa = PBXGroup;
+			children = (
+				3FAE17BB1EC5A8700028D587 /* RestRequestTest.m */,
+			);
+			name = RestClient;
+			sourceTree = "<group>";
+		};
+		3FAE17BA1EC5A8070028D587 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		3FFD201C1EBC634A0002436D = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +160,9 @@
 		3FFD20271EBC634A0002436D /* PhotoWall */ = {
 			isa = PBXGroup;
 			children = (
+				3FAE17AE1EC598A00028D587 /* RestClient */,
+				3FAE17AD1EC5988C0028D587 /* View */,
+				3FAE17AC1EC598820028D587 /* Model */,
 				3FFD202B1EBC634A0002436D /* AppDelegate.h */,
 				3FFD202C1EBC634A0002436D /* AppDelegate.m */,
 				3FFD202E1EBC634A0002436D /* ViewController.h */,
@@ -129,6 +188,8 @@
 		3FFD20441EBC634B0002436D /* PhotoWallTests */ = {
 			isa = PBXGroup;
 			children = (
+				3FAE17BA1EC5A8070028D587 /* Model */,
+				3FAE17B81EC5A7C60028D587 /* RestClient */,
 				3FFD20451EBC634B0002436D /* PhotoWallTests.m */,
 				3FFD20471EBC634B0002436D /* Info.plist */,
 			);
@@ -292,7 +353,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		90E72A730CEEBE692B83CFDC /* [CP] Copy Pods Resources */ = {
@@ -322,7 +383,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		9FBFCB20FCE62F1900F2D724 /* [CP] Copy Pods Resources */ = {
@@ -348,8 +409,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FFD20361EBC634A0002436D /* PhotoWall.xcdatamodeld in Sources */,
+				3FAE17B41EC59A420028D587 /* RestRequest.m in Sources */,
+				3FAE17B71EC5A0F00028D587 /* RestResponse.m in Sources */,
 				3FFD20301EBC634A0002436D /* ViewController.m in Sources */,
 				3FFD202D1EBC634A0002436D /* AppDelegate.m in Sources */,
+				3FAE17B11EC599560028D587 /* RestClient.m in Sources */,
 				3FFD202A1EBC634A0002436D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,6 +423,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FFD20461EBC634B0002436D /* PhotoWallTests.m in Sources */,
+				3FAE17BC1EC5A8700028D587 /* RestRequestTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,6 +614,7 @@
 				3FFD204C1EBC634B0002436D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FFD204D1EBC634B0002436D /* Build configuration list for PBXNativeTarget "PhotoWallTests" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +623,7 @@
 				3FFD204F1EBC634B0002436D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
