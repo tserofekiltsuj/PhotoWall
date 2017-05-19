@@ -1,5 +1,5 @@
 # PhotoWall
 
 ### Build Env
-+ sudo gem cocoapods
-+ pods install
++ sudo gem install cocoapods
++ pod install

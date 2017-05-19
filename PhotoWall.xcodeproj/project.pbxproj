@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1629871ECED76A0093115D /* _User.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1629861ECED76A0093115D /* _User.m */; };
 		3FAE17B11EC599560028D587 /* RestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAE17B01EC599560028D587 /* RestClient.m */; };
 		3FAE17B41EC59A420028D587 /* RestRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAE17B31EC59A420028D587 /* RestRequest.m */; };
 		3FAE17B71EC5A0F00028D587 /* RestResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAE17B61EC5A0F00028D587 /* RestResponse.m */; };
@@ -39,6 +40,8 @@
 /* Begin PBXFileReference section */
 		2A5E94DB99D4B10180B73FA5 /* Pods-PhotoWall-PhotoWallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoWall-PhotoWallTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoWall-PhotoWallTests/Pods-PhotoWall-PhotoWallTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2B1FD232209FB1CDB64B9A39 /* Pods-PhotoWall-PhotoWallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoWall-PhotoWallTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoWall-PhotoWallTests/Pods-PhotoWall-PhotoWallTests.release.xcconfig"; sourceTree = "<group>"; };
+		3F1629851ECED76A0093115D /* _User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _User.h; path = CoreData/_User.h; sourceTree = "<group>"; };
+		3F1629861ECED76A0093115D /* _User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _User.m; path = CoreData/_User.m; sourceTree = "<group>"; };
 		3FAE17AF1EC599560028D587 /* RestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestClient.h; path = PhotoWall/RestClient/RestClient.h; sourceTree = "<group>"; };
 		3FAE17B01EC599560028D587 /* RestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestClient.m; path = PhotoWall/RestClient/RestClient.m; sourceTree = "<group>"; };
 		3FAE17B21EC59A420028D587 /* RestRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestRequest.h; path = PhotoWall/RestClient/RestRequest.h; sourceTree = "<group>"; };
@@ -97,6 +100,15 @@
 				4AA554D3174B1BE06252A2A8 /* Pods_PhotoWall_PhotoWallTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F1629841ECED75A0093115D /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				3F1629851ECED76A0093115D /* _User.h */,
+				3F1629861ECED76A0093115D /* _User.m */,
+			);
+			name = CoreData;
 			sourceTree = "<group>";
 		};
 		3FAE17AC1EC598820028D587 /* Model */ = {
@@ -171,6 +183,7 @@
 		3FFD20271EBC634A0002436D /* PhotoWall */ = {
 			isa = PBXGroup;
 			children = (
+				3F1629841ECED75A0093115D /* CoreData */,
 				3FAE17AE1EC598A00028D587 /* RestClient */,
 				3FAE17AD1EC5988C0028D587 /* View */,
 				3FAE17AC1EC598820028D587 /* Model */,
@@ -421,6 +434,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F1629871ECED76A0093115D /* _User.m in Sources */,
 				3FAE17C21EC5B02B0028D587 /* LoginViewController.m in Sources */,
 				3FFD20361EBC634A0002436D /* PhotoWall.xcdatamodeld in Sources */,
 				3FAE17B41EC59A420028D587 /* RestRequest.m in Sources */,
